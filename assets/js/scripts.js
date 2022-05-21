@@ -15,8 +15,17 @@ $(document).ready(function() {
 		$(this).toggleClass('active');
 		$('.nav-list').slideToggle();
 	});
-	// navbar end
-
+    $('.accBox').hover(function () {
+		$(this).prevAll().removeClass('expand');
+		$(this).nextAll().removeClass('expand');
+        $(this).prevAll().addClass('shrink');
+		$(this).nextAll().addClass('shrink');
+		$(this).addClass('expand');
+	});
+    // $('.accordinas-wrapper').mouseout(function () {
+    //     $('.accBox').removeClass('expand');
+    //     $('.accBox').removeClass('shrink');
+    // });
     AOS.init({
 		offset: 200, 
 		duration: 1000

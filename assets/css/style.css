@@ -81,3 +81,123 @@ a:hover{
 	text-align: center;
 	transition:  all 0.3s ease-in-out;
 }
+.accordinas{
+	padding: 70px 0;
+	background-color: #F7F3EB;
+	text-align: center;
+}
+.accordinas__heading{
+	font-size: 57px;
+	line-height: 1;
+	margin-bottom: 45px;
+	font-weight: 600;
+}
+
+.accordinas__desc{
+	max-width: 771px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.accordinas-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.accBox{
+	background-size: cover;
+	width: 16%;
+	height: 654px;
+	position: relative;
+	z-index: 99;
+	overflow: hidden;
+}
+.accBox.shrink{
+	width: 13%;
+}
+.accBox.expand{
+	width: 30%;
+}
+.accBox__bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.accBox-h{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transform: rotate(-90deg);
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all 0.1s ease-in-out;
+	/* top: -95px; */
+}
+.accBox-h2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* transform: rotate(-90deg); */
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all 0.1s ease-in-out;
+	opacity: 0;
+	z-index: -1;
+	/* top: -95px; */
+}
+.accBox-h__heading{
+	font-size: 38px;
+	font-weight: bold;
+	line-height: 1;
+	color: #fff;
+	text-overflow: ellipsis;
+  	white-space: nowrap;
+	margin-left: 75px;
+	transition: all 0.1s ease-in-out;
+}
+.accBox-h__desc{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #fff;
+	text-overflow: ellipsis;
+  	white-space: nowrap;
+	margin-left: 75px;
+	transition: all 0.1s ease-in-out;
+	margin: 0 auto;
+}
+.accBox:hover .accBox-h{
+	opacity: 0;
+	z-index: -1;
+	transition: all 0.1s ease-in-out;
+}
+.accBox:hover .accBox-h2{
+	opacity: 1;
+	z-index: 1;
+	transition: all 0.1s ease-in-out;
+}
+.accBox-h__arrow{
+	font-size: 18px;
+	line-height: 1;
+	color: #fff;
+	position: absolute;
+	bottom: 60px;
+	transition: all 0.1s ease-in-out;
+}
+.accBox:hover .accBox-h__arrow{
+	opacity: 0;
+	z-index: -1;
+	transition: all 0.1s ease-in-out;
+}
