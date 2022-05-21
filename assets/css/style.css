@@ -81,3 +81,135 @@ a:hover{
 	text-align: center;
 	transition:  all 0.3s ease-in-out;
 }
+/* ==================================zahid.css start====================================*/
+/* award section start */
+#awards-section, #award-seasons, #about-us{
+	margin-bottom: 100px;
+}
+.award-txt {
+	color: #00514C;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+#awards-section .box-trophy{
+display: flex;
+padding: 10px;
+margin-bottom: 5px;
+margin-top: 10px;
+align-items: center;
+height: 200px;
+width: auto;
+}
+#awards-section .trophy-img{
+	margin-right: 15px;
+
+}
+#awards-section .box-trophy-dark-gray{
+	background-color: #535353;
+}
+#awards-section .box-trophy-blue{
+	background-color: #153056;
+}
+#awards-section .box-trophy-green{
+	background-color: #00514C;
+}
+#awards-section .box-trophy-light-gray{
+	background-color: #B79B66;
+}
+#awards-section .box-trophy-dark-brown{
+	background-color: #571B24;
+}
+#awards-section .box-trophy-light-green{
+	background-color: #3E762E;
+}
+.box-trophy .tropy-text{
+	margin-right: 15px;
+
+}
+.box-trophy .tropy-text h3{
+	color: #fff;
+	font-size: 31;
+	font-weight: 400;
+}
+.box-trophy .tropy-text p{
+	color: #fff;
+	font-size: 34px;
+	font-weight: bold;
+
+}
+/* ============================== award-season ==================================== */
+#award-seasons .season-box{
+	height: 350px;
+	width: auto;
+	background-color: #B79B66;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 50px;
+}
+.season-box .season-name{
+	text-align: center;
+}
+.season-name span{
+	font-size: 30px;
+}
+.season-name p{
+	font-size: 80px;
+}
+.season-box .concert-icons{
+	margin-bottom: 12px;
+}
+/* about us */
+.about-us{
+	background-color: #00514C;
+	color: #B79B66;
+}
+.quiries-contact p{
+	border-bottom: 1px solid #B79B66;
+	font-size: 24px;
+	font-weight: bold;
+}
+.quiries-contact span{
+	font-size: 40px;
+	font-weight: bold;
+}
+.quiries-contact{
+	padding: 15px;
+}
+/*============================== about us form =================================*/
+.about-us .pt-pb{
+	padding: 100px 0 100px 0;
+}
+.form-abouts-us{
+	padding: 20px 0 20px 60px;
+}
+.form-abouts-us .form-group{
+	margin-bottom: 8px;
+}
+.form-abouts-us ::placeholder{
+	color: #B79B66;
+	font-size: 24px;
+	font-weight: bold;
+}
+.form-abouts-us .form-control{
+	border: 1px solid #b79b66;
+    background-color: transparent;
+    color: #b79b66;
+	padding: 15px;
+    border-radius: 0px;
+}
+.about-btn {
+	background-color: #b79b66;
+    color: #24514d;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 30px;
+	border: none;
+    border-radius: 0px;
+
+}
+/* zahid css end */
