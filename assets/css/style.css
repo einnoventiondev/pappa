@@ -204,7 +204,7 @@ a:hover{
 /* ==================================zahid.css start====================================*/
 /* award section start */
 #awards-section, #award-seasons, #about-us{
-	margin-bottom: 100px;
+	padding: 70px 0;
 }
 .award-txt {
 	color: #00514C;
