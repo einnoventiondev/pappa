@@ -489,6 +489,31 @@ a:hover {
 	padding-right: 56px !important;
 }
 /* asim css end here */
+.accordians-mobile .box {
+	position: relative;
+    margin: 10px 0px;
+}
+.accordians-mobile .box img {
+    width: 100%;
+	height: 240px;
+}
+.accordians-mobile .box .content {
+	position: absolute;
+}
+.accordians-mobile .box .accBox-h__heading {
+	font-size: 30px;
+    margin-left: 0;
+	padding-top: 15px;
+    position: relative;
+    left: 0;
+    text-align: center;
+}
+.accordians-mobile .accBox-h__desc {
+    padding: 25px 20px;
+}
+.accordians-mobile .accBox-h__desc br {
+    display: none;
+}
 @media(max-width:1399px){
 	
 	.time-plan-txt {
@@ -510,6 +535,10 @@ a:hover {
 @media(max-width:1199px){
 	.form-abouts-us{
 		padding-left: 0;
+	}
+	.accBox-h__desc {
+		white-space: normal;
+		padding: 20px;
 	}
 }
 @media(max-width:768px){
