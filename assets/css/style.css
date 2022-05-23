@@ -277,15 +277,12 @@ a:hover {
 	margin-top: 5px;
 	margin-bottom: 40px;
 }
-
-#awards-section .box-trophy {
+#awards-section .box-trophy{
 	display: flex;
 	padding: 10px;
-	margin-bottom: 5px;
-	margin-top: 10px;
-	align-items: center;
-	height: 200px;
-	width: auto;
+	padding: 60px 25px 0px 25px;
+	min-height: 220px;
+	margin-bottom: 10px;
 }
 
 #awards-section .trophy-img {
@@ -318,18 +315,19 @@ a:hover {
 
 .box-trophy .tropy-text {
 	margin-right: 15px;
-
+	width: calc(100% - 91px);
 }
 
 .box-trophy .tropy-text h3 {
 	color: #fff;
-	font-size: 31;
+	font-size: 22px;
+	margin-bottom: 20px;
 	font-weight: 400;
 }
 
 .box-trophy .tropy-text p {
 	color: #fff;
-	font-size: 34px;
+	font-size: 26px;
 	font-weight: bold;
 
 }
@@ -369,13 +367,17 @@ a:hover {
 
 .quiries-contact p {
 	border-bottom: 1px solid #B79B66;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
 }
-
-.quiries-contact span {
-	font-size: 40px;
+.quiries-contact span{
+	font-size: 30px;
 	font-weight: bold;
+	line-height: 1;
+	display: flex;
+	margin-bottom: 40px;
 }
 
 .quiries-contact {
@@ -420,4 +422,50 @@ a:hover {
 	border-radius: 0px;
 
 }
+#main-about-us{
+	padding-bottom: 15rem;
+}
+.trophy-img img{
+	height:86px;
+	width:76px;
+}
 /* zahid css end */
+
+/* asim css start here */
+.time-plan-section {
+    padding-top: 50px;
+}
+
+.time-plan-txt{
+	color: #00514C;
+    text-align: center;
+    font-size: 57px;
+	font-weight: 500;
+	width: 50%;
+    margin: auto;
+    margin-bottom: 56px;
+}
+.time-plan-section thead{
+	background-color: #00514C;
+    color: #B79B66;
+	font-weight: 800;
+    font-size: 34px;
+}
+.time-plan-section td {
+    font-weight: 800;
+    font-size: 34px;
+	color: #B79B66;
+	/* width: 18%; */
+}
+.time-plan-section tbody tr td:first-child{
+	color: #00514C;
+}
+.time-plan-section table th , .time-plan-section table td {
+	padding-right: 56px !important;
+}
+/* asim css end here */
+@media(max-width:768px){
+	.form-abouts-us{
+		padding-left: 0;
+	}
+}
