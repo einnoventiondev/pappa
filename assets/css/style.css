@@ -340,3 +340,37 @@ width: auto;
 	width:76px;
 }
 /* zahid css end */
+
+/* asim css start here */
+.time-plan-section {
+    padding-top: 50px;
+}
+
+.time-plan-txt{
+	color: #00514C;
+    text-align: center;
+    font-size: 57px;
+	font-weight: 500;
+	width: 50%;
+    margin: auto;
+    margin-bottom: 56px;
+}
+.time-plan-section thead{
+	background-color: #00514C;
+    color: #B79B66;
+	font-weight: 800;
+    font-size: 34px;
+}
+.time-plan-section td {
+    font-weight: 800;
+    font-size: 34px;
+	color: #B79B66;
+	/* width: 18%; */
+}
+.time-plan-section tbody tr td:first-child{
+	color: #00514C;
+}
+.time-plan-section table th , .time-plan-section table td {
+	padding-right: 56px !important;
+}
+/* asim css end here */
