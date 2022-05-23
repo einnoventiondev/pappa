@@ -22,10 +22,10 @@ $(document).ready(function() {
 		$(this).nextAll().addClass('shrink');
 		$(this).addClass('expand');
 	});
-    // $('.accordinas-wrapper').mouseout(function () {
-    //     $('.accBox').removeClass('expand');
-    //     $('.accBox').removeClass('shrink');
-    // });
+    $('.accordinas-wrapper').mouseout(function () {
+        $('.accBox').removeClass('expand');
+        // $('.accBox').removeClass('shrink');
+    });
     AOS.init({
 		offset: 200, 
 		duration: 1000

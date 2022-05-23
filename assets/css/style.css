@@ -332,4 +332,11 @@ width: auto;
     border-radius: 0px;
 
 }
+#main-about-us{
+	padding-bottom: 15rem;
+}
+.trophy-img img{
+	height:86px;
+	width:76px;
+}
 /* zahid css end */
