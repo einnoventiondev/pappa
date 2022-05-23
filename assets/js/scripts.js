@@ -32,7 +32,9 @@ $(document).ready(function() {
 		duration: 1000
 	});
     // animation on scroll
-
+    $(window).on('load', function(event) {
+        $('.jQueryEqualHeight').jQueryEqualHeight('.box-trophy');
+    });
 });
 
 
