@@ -284,12 +284,17 @@ a:hover{
 }
 .quiries-contact p{
 	border-bottom: 1px solid #B79B66;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
 }
 .quiries-contact span{
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
+	line-height: 1;
+	display: flex;
+	margin-bottom: 40px;
 }
 .quiries-contact{
 	padding: 15px;
@@ -335,3 +340,8 @@ a:hover{
 	width:76px;
 }
 /* zahid css end */
+@media(max-width:768px){
+	.form-abouts-us{
+		padding-left: 0;
+	}
+}
