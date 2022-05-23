@@ -481,7 +481,6 @@ a:hover {
     font-weight: 800;
     font-size: 34px;
 	color: #B79B66;
-	/* width: 18%; */
 }
 .time-plan-section tbody tr td:first-child{
 	color: #00514C;
@@ -490,6 +489,24 @@ a:hover {
 	padding-right: 56px !important;
 }
 /* asim css end here */
+@media(max-width:1399px){
+	
+	.time-plan-txt {
+		color: #00514C;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 500;
+		width: 100%;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	.time-plan-section td {
+		font-size: 26px;
+	}
+	.time-plan-section thead{
+		font-size: 26px;
+	}
+}
 @media(max-width:1199px){
 	.form-abouts-us{
 		padding-left: 0;
