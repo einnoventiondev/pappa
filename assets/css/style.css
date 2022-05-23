@@ -568,6 +568,9 @@ a:hover {
 	.accordians-mobile {
 		display: block;
 	}
+	.box-trophy .tropy-text p {
+		font-size: 24px;
+	}
 }
 @media(max-width:767px){
 	
