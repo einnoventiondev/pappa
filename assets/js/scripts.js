@@ -1,5 +1,3 @@
-	
-
 $(document).ready(function() {
     
     $(window).scroll(function() {
@@ -18,14 +16,17 @@ $(document).ready(function() {
     $('.accBox').hover(function () {
 		$(this).prevAll().removeClass('expand');
 		$(this).nextAll().removeClass('expand');
-        $(this).prevAll().addClass('shrink');
-		$(this).nextAll().addClass('shrink');
-		$(this).addClass('expand');
+        $(this).prevAll().toggleClass('shrink');
+		$(this).nextAll().toggleClass('shrink');
+		$(this).toggleClass('expand');
+        $(this).find('.accBox-h2').toggleClass('accBoxToggle');
+        $(this).find('.accBox-h').toggleClass('accBoxhToggle');
 	});
-    $('.accordinas-wrapper').mouseout(function () {
-        $('.accBox').removeClass('expand');
-        // $('.accBox').removeClass('shrink');
-    });
+    // $('.accordinas-wrapper').mouseout(function () {
+    //     $('.accBox').removeClass('expand');
+    //     $('.accBox').removeClass('shrink');
+    //     $('.accBox').removeClass('shrink');
+    // });
     AOS.init({
 		offset: 200, 
 		duration: 1000
