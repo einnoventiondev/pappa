@@ -464,7 +464,6 @@ a:hover {
     font-weight: 800;
     font-size: 34px;
 	color: #B79B66;
-	/* width: 18%; */
 }
 .time-plan-section tbody tr td:first-child{
 	color: #00514C;
@@ -483,6 +482,12 @@ a:hover {
 		width: 100%;
 		margin: auto;
 		margin-bottom: 40px;
+	}
+	.time-plan-section td {
+		font-size: 26px;
+	}
+	.time-plan-section thead{
+		font-size: 26px;
 	}
 }
 @media(max-width:1199px){
