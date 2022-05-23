@@ -464,6 +464,18 @@ a:hover {
 	padding-right: 56px !important;
 }
 /* asim css end here */
+@media(max-width:1399px){
+	
+	.time-plan-txt {
+		color: #00514C;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 500;
+		width: 100%;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+}
 @media(max-width:1199px){
 	.form-abouts-us{
 		padding-left: 0;
