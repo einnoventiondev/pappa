@@ -497,6 +497,9 @@ a:hover {
 	width: 313px;
 }
 /* asim css end here */
+.accordians-mobile {
+	padding: 70px 0;
+}
 .accordians-mobile .box {
 	position: relative;
     margin: 10px 0px;
@@ -521,6 +524,12 @@ a:hover {
 }
 .accordians-mobile .accBox-h__desc br {
     display: none;
+}
+.accordinas {
+	display: block;
+}
+.accordians-mobile {
+	display: none;
 }
 @media(max-width:1399px){
 	
@@ -549,9 +558,15 @@ a:hover {
 		padding: 20px;
 	}
 }
-@media(max-width:768px){
+@media(max-width:991px){
 	.form-abouts-us{
 		padding-left: 0;
+	}
+	.accordinas {
+		display: none;
+	}
+	.accordians-mobile {
+		display: block;
 	}
 }
 @media(max-width:767px){
