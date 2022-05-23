@@ -215,17 +215,11 @@ a:hover{
 	margin-bottom: 40px;
 }
 #awards-section .box-trophy{
-display: flex;
-padding: 10px;
-margin-bottom: 5px;
-margin-top: 10px;
-align-items: center;
-height: 200px;
-width: auto;
-}
-#awards-section .trophy-img{
-	margin-right: 15px;
-
+	display: flex;
+	padding: 10px;
+	padding: 60px 25px 0px 25px;
+	min-height: 220px;
+	margin-bottom: 10px;
 }
 #awards-section .box-trophy-dark-gray{
 	background-color: #535353;
@@ -247,16 +241,17 @@ width: auto;
 }
 .box-trophy .tropy-text{
 	margin-right: 15px;
-
+	width: calc(100% - 91px);
 }
 .box-trophy .tropy-text h3{
 	color: #fff;
-	font-size: 31;
+	font-size: 22px;
+	margin-bottom: 20px;
 	font-weight: 400;
 }
 .box-trophy .tropy-text p{
 	color: #fff;
-	font-size: 34px;
+	font-size: 26px;
 	font-weight: bold;
 
 }
