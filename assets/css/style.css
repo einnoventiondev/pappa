@@ -505,11 +505,15 @@ a:hover {
     font-size: 34px;
 	color: #B79B66;
 }
-.time-plan-section tbody tr td:nth-child(2){
+.time-plan-section tbody tr td:nth-child(1){
 	color: #00514C;
 }
-.time-plan-section table th , .time-plan-section table td {
+/* .time-plan-section table th , .time-plan-section table td {
 	padding-right: 56px !important;
+} */
+
+.table-box-1{
+	padding-right: 320px !important;
 }
 .table-h{
 	width: 313px;
