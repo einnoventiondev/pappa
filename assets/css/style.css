@@ -147,7 +147,8 @@ a:hover {
 	position: relative;
 	z-index: 99;
 	overflow: hidden;
-	background-color: #b79b66;
+	background: url(../images/bg-yellow.png) no-repeat;
+	background-size: cover;
 }
 
 .accBox.shrink {
@@ -156,7 +157,8 @@ a:hover {
 
 .accBox.expand {
 	width: 30%;
-	background-color: #00514C;
+	background: url(../images/bg-green.png) no-repeat;
+	background-size: cover;
 }
 
 .accBox__bg {
@@ -323,8 +325,8 @@ a:hover {
 
 .box-trophy .tropy-text h3 {
 	color: #fff;
-	font-size: 22px;
-	margin-bottom: 20px;
+	font-size: 18px;
+	margin-bottom: 15px;
 	font-weight: 400;
 }
 
@@ -337,26 +339,36 @@ a:hover {
 
 /* ============================== award-season ==================================== */
 #award-seasons .season-box {
-	height: 350px;
+	height: 420px;
 	width: auto;
-	background: url(../images/pentagone-yellow.svg) center;
+	background: url(../images/pentagone-yellow.png) center;
 	background-size: 100% 100%;
 	/* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
 	/* background-color: #B79B66; */
 	color: #00514C;
 	text-align: center;
 	margin-bottom: 5px;
-	padding: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0px 30px ;
 	transition: all 0.5s ease-in-out;
+	position: relative;
+	overflow: hidden;
+}
+.season-box__img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: auto;
 }
 #award-seasons .season-box:hover{
-	background: url(../images/pentagone-green.svg) center;
+	background: url(../images/pentagone-green.png) center;
 	background-size: 100% 100%;
 	transition: all 0.5s ease-in-out;
 	color: #fff;
 }
 .season-box .season-name {
-	padding-top: 20px;
 	width: 60%;
 }
 
