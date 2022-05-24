@@ -441,7 +441,13 @@ a:hover {
 	padding: 15px;
 	border-radius: 0px;
 }
-
+.form-abouts-us .form-control:focus{
+	outline: 2px solid #fff;
+	color: #fff;
+}
+.form-abouts-us .form-control:focus::placeholder{
+	color: #fff;
+}
 .about-btn {
 	background-color: #b79b66;
 	color: #24514d;
@@ -451,7 +457,12 @@ a:hover {
 	padding: 5px 30px;
 	border: none;
 	border-radius: 0px;
-
+	margin-top: 30px;
+}
+.about-btn:hover{
+	background-color: #fff;
+	box-shadow: 2px 2px 0 2px #B79B66;
+	transform: translate(-2px,-2px);
 }
 #main-about-us{
 	padding-bottom: 15rem;
@@ -520,10 +531,6 @@ a:hover {
 .time-plan-section tbody tr td:nth-child(1){
 	color: #00514C;
 }
-/* .time-plan-section table th , .time-plan-section table td {
-	padding-right: 56px !important;
-} */
-
 .table-box-1{
 	padding-right: 320px !important;
 }
@@ -604,26 +611,7 @@ a:hover {
 	line-height: 1.5;
 	text-align: center;
 }
-/*
-.acc-mob-box1{
-	background: url(../images/bg1.jpg);
-}
- .acc-mob-box2{
-	background: url(../images/bg2.jpg);
-}
-.acc-mob-box3{
-	background: url(../images/bg3.jpg);
-}
-.acc-mob-box4{
-	background: url(../images/bg4.jpg);
-}
-.acc-mob-box5{
-	background: url(../images/bg5.jpg);
-}
-.acc-mob-box6{
-	background: url(../images/bg6.jpg);
-} */
-/*  */
+
 @media(max-width:1399px){
 	
 	.time-plan-txt {
