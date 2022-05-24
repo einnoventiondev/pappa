@@ -147,6 +147,7 @@ a:hover {
 	position: relative;
 	z-index: 99;
 	overflow: hidden;
+	background-color: #b79b66;
 }
 
 .accBox.shrink {
@@ -155,6 +156,7 @@ a:hover {
 
 .accBox.expand {
 	width: 30%;
+	background-color: #00514C;
 }
 
 .accBox__bg {
@@ -337,29 +339,45 @@ a:hover {
 #award-seasons .season-box {
 	height: 350px;
 	width: auto;
-	background-color: #B79B66;
-	color: #fff;
+	background: url(../images/pentagone-yellow.svg) center;
+	background-size: 100% 100%;
+	/* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
+	/* background-color: #B79B66; */
+	color: #00514C;
 	text-align: center;
 	margin-bottom: 5px;
 	padding: 50px;
+	transition: all 0.5s ease-in-out;
 }
-
+#award-seasons .season-box:hover{
+	background: url(../images/pentagone-green.svg) center;
+	background-size: 100% 100%;
+	transition: all 0.5s ease-in-out;
+	color: #fff;
+}
 .season-box .season-name {
-	text-align: center;
+	padding-top: 20px;
+	width: 60%;
 }
 
 .season-name span {
-	font-size: 30px;
+	font-size: 40px;
+	font-weight: 900;
 }
 
 .season-name p {
 	font-size: 80px;
+	color: #00514c;
+	transition: all 0.5s ease-in-out;
 }
 
 .season-box .concert-icons {
 	margin-bottom: 12px;
 }
-
+#award-seasons .season-box:hover .season-name p {
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
 /* about us */
 .about-us {
 	background-color: #00514C;
@@ -555,6 +573,12 @@ a:hover {
 .acc-mob-box{
 	padding: 40px 20px;
 	margin-bottom: 10px;
+	background-color: #B79B66;
+	transition: all 0.3s ease-in-out;
+}
+.acc-mob-box:hover{
+	background-color: #00514C;
+	transition: all 0.3s ease-in-out;
 }
 .acc-mob-box__heading{
 	color: #fff;
@@ -568,10 +592,11 @@ a:hover {
 	line-height: 1.5;
 	text-align: center;
 }
+/*
 .acc-mob-box1{
 	background: url(../images/bg1.jpg);
 }
-.acc-mob-box2{
+ .acc-mob-box2{
 	background: url(../images/bg2.jpg);
 }
 .acc-mob-box3{
@@ -585,7 +610,7 @@ a:hover {
 }
 .acc-mob-box6{
 	background: url(../images/bg6.jpg);
-}
+} */
 /*  */
 @media(max-width:1399px){
 	
@@ -641,6 +666,9 @@ a:hover {
 	}
 	.box-trophy .tropy-text p {
 		font-size: 22px;
+	}
+	.acc-mob{
+		display: block;
 	}
 }
 @media(max-width:767px){
