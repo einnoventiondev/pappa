@@ -661,6 +661,12 @@ a:hover {
 	} */
 }
 @media(max-width:991px){
+	.table-h {
+		width: 0px;
+	}
+	.table-box-1 {
+		padding-right: 100px !important;
+	}
 	.form-abouts-us{
 		padding-left: 0;
 	}
