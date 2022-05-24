@@ -643,6 +643,12 @@ a:hover {
 	}
 }
 @media(max-width:1199px){
+	.season-name span{
+		font-size: 32px;
+	}
+	#award-seasons .season-box{
+		height: 350px;
+	}
 	.form-abouts-us{
 		padding-left: 0;
 	}
