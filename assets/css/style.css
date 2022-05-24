@@ -505,7 +505,7 @@ a:hover {
     font-size: 34px;
 	color: #B79B66;
 }
-.time-plan-section tbody tr td:first-child{
+.time-plan-section tbody tr td:nth-child(2){
 	color: #00514C;
 }
 .time-plan-section table th , .time-plan-section table td {
@@ -560,10 +560,6 @@ a:hover {
     font-weight: 600;
     font-family: 'Cairo', sans-serif;
 }
-
-
-
-
 
 /*  */
 .acc-mob{
